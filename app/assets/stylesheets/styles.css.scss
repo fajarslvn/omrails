@@ -1,0 +1,25 @@
+$navbarBackground: white;
+$navbarBackgroundHighlight: white;
+$btnPrimaryBackground: purple;
+$btnPrimaryBackgroundHighlight: purple;
+
+@import "bootstrap";
+
+body {
+	padding-top: 60px;
+}
+
+@import "bootstrap-responsive";
+
+.hero-unit {
+	text-align: center;
+	line-height: 40px;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
